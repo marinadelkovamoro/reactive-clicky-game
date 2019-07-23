@@ -1,0 +1,30 @@
+import React from "react";
+
+// If we want a child component to update or pass data to its parent, we can create a method inside the parent for the update
+// Then bind the method to the parent, and pass it to the child as a prop
+
+const Navbar = (props) => {
+    return (
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Clicky Game <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        {/* <NavMessage score={props.score} topScore={props.topScore} /> */}
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Score: {props.score} | Top Score: {props.topScore} </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    );
+}
+
+export default Navbar;
