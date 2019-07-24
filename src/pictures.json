@@ -70,5 +70,23 @@
     "name": "Ickis",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "clicked": false
+  },
+  {
+    "id": 13,
+    "name": "Bubbles",
+    "image":"https://www.drawinghowtodraw.com/stepbystepdrawinglessons/wp-content/uploads/2011/08/400x400-bubbles-from-powerpuff-girls.png",
+    "clicked": false
+  },
+  {
+    "id": 14,
+    "name": "Jake",
+    "image":"https://vignette.wikia.nocookie.net/vsbattles/images/5/5c/Jake_the_dog.png/revision/latest?cb=20140602235755",
+    "clicked": false
+  },
+  {
+    "id": 15,
+    "name": "Fred Flintstone",
+    "image": "https://i.pinimg.com/originals/97/d7/d4/97d7d480d3f47899a00507d09c2eec5c.gif",
+    "clicked": false
   }
 ]

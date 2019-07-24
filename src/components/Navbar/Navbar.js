@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 // If we want a child component to update or pass data to its parent, we can create a method inside the parent for the update
 // Then bind the method to the parent, and pass it to the child as a prop
@@ -6,7 +7,6 @@ import React from "react";
 const Navbar = (props) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#" >Navbar</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

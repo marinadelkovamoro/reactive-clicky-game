@@ -74,9 +74,9 @@ class Game extends React.Component {
   // The render method returns the JSX that should be rendered
   render() {
     return (
-      <div className="card text-center">
+      <div className="text-center">
         <Nav score={this.state.score} topScore={this.state.topScore} />
-        <div className="container">
+        <div className="wrapper">
           {this.state.pictures.map((picture) => (
             <Card handleClick={this.handleItemClick}
               image={picture.image}
