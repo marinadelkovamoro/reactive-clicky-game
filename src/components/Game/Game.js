@@ -81,6 +81,8 @@ class Game extends React.Component {
             <Card handleClick={this.handleItemClick}
               image={picture.image}
               id={picture.id}
+              // ADD ID AS THE KEY TO REMOVE A WARNING: "Each child in a list should have a unique "key" prop.
+              key={picture.id}
             />
           ))}
         </div>
