@@ -1,3 +1,34 @@
+# Clicky Game
+
+This is a memory game created with React.
+
+## How it works:
+
+The application renders Cartoon Network character images to the screen. 
+Each image listens for click events. 
+Every time an image is clicked, the images rendered to the page shuffle themselves in a random order.
+
+The application keeps track of the user's score by incrementing it when clicking on an image for the first time. 
+The user's score is reset to 0 if they click the same image more than once.
+
+Once the user's score is reset after an incorrect guess, the game restarts and the score is set to 0.
+
+Top Score tracks the user's highest achieved score from previous attempts.
+
+## Technologies used:
+
+* react
+* react-dom
+* react-scripts
+* gh-pages
+
+
+# Deployed application to Github Pages:
+https://marinadelkovamoro.github.io/reactive-clicky-game/
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
