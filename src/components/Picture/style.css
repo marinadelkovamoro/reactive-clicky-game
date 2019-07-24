@@ -1,0 +1,32 @@
+/* .card {
+    background: #fff;
+    border-radius: 2px;
+    height: 325px;
+    margin: 1rem;
+    position: relative;
+    width: 325px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
+  } */
+  .card{
+      background-size: cover;
+      background-position: center;
+      height: 150px;
+      width: 150px;
+      margin: 8px 25px;
+      border: 5px solid rgb(241, 241, 241);
+
+  }
+  
+  .card > .img-container {
+    height: 60%;
+   
+    text-align: center;
+    background:#6CADDC;
+  }
+  .card > .img-container > img {
+    width: 100%
+  }
+  
+ 
+  
